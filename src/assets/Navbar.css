@@ -38,14 +38,16 @@ nav.scrolled {
 }
 
 /* Social */
+.social_links
+{
+    width: 20%;
+    display: flex;
+}
 .social_links a {
     color: black;
     font-size: 1.5rem;
-    margin-right: 16px;
     transition: all 0.3s ease;
 }
-.social_links a:hover { color: #c9c5c5; transform: scale(1.15); }
-
 /* Logo */
 .logo_box img {
     height: 65px;

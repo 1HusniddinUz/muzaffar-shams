@@ -3,6 +3,7 @@ const translationsUz = {
     products: `Mahsulotlar`,
     about: `Biz haqimizda`,
     contact: `Bog'lanish uchun`,
+    btnShow: `Mahsulotlarni ko‘rish`,
     quotes: `Zamonaviy Sandiqlar Ustaxonasi`,
     aboutUs: `Muzaffar Shams — 1965 yildan beri oila an’anasini davom ettirayotgan ustaxona. Sandiq, beshik, belanchak va boshqa qo‘l mehnati mahsulotlarini sifat bilan tayyorlaymiz; O'zbekiston bo'ylab yetkazib beramiz`,
     heroBtn: `Mahsulotlarni ko‘rish`,

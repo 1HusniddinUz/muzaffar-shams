@@ -3,6 +3,7 @@ const translationsEn = {
     products: "Products",
     about: "About Us",
     contact: "Contact",
+    btnShow: `View products`,
     quotes: "Modern Chest Workshop",
     aboutUs: "Muzaffar Shams — a family workshop continuing its legacy since 1965. We craft chests, cradles, and other handmade wooden products with high quality and deliver them across Uzbekistan.",
     heroBtn: "View Products",

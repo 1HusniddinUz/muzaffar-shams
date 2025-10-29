@@ -2,7 +2,7 @@ import Navbar from "../ui/Navbar.jsx";
 
 const Header = () => {
     return (
-        <header>
+        <header id="Header">
             <Navbar />
         </header>
     )

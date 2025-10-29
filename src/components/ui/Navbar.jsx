@@ -23,7 +23,7 @@ const Navbar = () => {
     }, [menuOpen]);
 
     return (
-        <nav className={`navbar ${scrolled ? "scrolled" : ""}`} role="navigation">
+        <nav className={`navbar ${scrolled ? "scrolled" : ""}`} role="navigation" >
             <div className="container">
                 {/* === NAV TOP === */}
                 <div className="nav_top">
@@ -31,8 +31,8 @@ const Navbar = () => {
                         <a href="https://t.me/+998934748880" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
                             <i className="fa-brands fa-telegram"></i>
                         </a>
-                        <a href="https://t.me/+998934748880" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                            <i className="fa-brands fa-instagram"></i>
+                        <a href="https://t.me/+998934748880" target="_blank" rel="noopener noreferrer" >
+                            +998(93) 474-88-80
                         </a>
                     </div>
 
@@ -70,8 +70,8 @@ const Navbar = () => {
                 {/* === NAV BOTTOM (Burger menyu) === */}
                 <div id="primary-navigation" className={`nav_bottom ${menuOpen ? "open" : ""}`}>
                     <ul className="nav_links">
-                        <li><a className="nav_link" href="#">{t("headersec")}</a></li>
-                        <li><a className="nav_link" href="#">{t("products")}</a></li>
+                        <li><a className="nav_link" href="#Header">{t("headersec")}</a></li>
+                        <li><a className="nav_link" href="#Products">{t("products")}</a></li>
 
                         {/* === MARKETPLACE DROPDOWN === */}
                         <li
@@ -94,7 +94,7 @@ const Navbar = () => {
                             </ul>
                         </li>
 
-                        <li><a className="nav_link" href="#">{t("contact")}</a></li>
+                        <li><a className="nav_link" href="#ContactForm">{t("contact")}</a></li>
                     </ul>
 
                     {/* Mobile uchun lang select */}
